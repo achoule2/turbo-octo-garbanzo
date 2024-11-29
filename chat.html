@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">;  
+  <title>Galerie de Chats</title>
+  <link rel="stylesheet" href="/src/css/menu.css">
+  <link rel="stylesheet" href="/src/css/gallery.css">
+  <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body>
+  <header class="header container">
+    <div class="header__end">
+      <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">🍔</button>
+      <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <ul class="menu__list list-unstyled">
+          <li class="menu__item">
+            <a class="menu__link" href="chat.html">Chat</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="chien.html">Chien</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="index.html">Accueil</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Item de menu quatre</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <h1 class="title">Galerie de Chats</h1>
+    <p class="subtitle">Découvrez nos adorables chats ci-dessous !</p>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <article class="gallery__item">
+        <img src="/public/chat1.jpg" alt="Chat 1" class="gallery__img">
+        <p class="gallery__description">Voici le chat numéro 1, il est très mignon !</p>
+      </article>
+
+      <article class="gallery__item">
+        <img src="/public/chat2.jpg" alt="Chat 2" class="gallery__img">
+        <p class="gallery__description">Ce chat adore se prélasser au soleil.</p>
+      </article>
+
+      <article class="gallery__item">
+        <img src="/public/chat3.jpg" alt="Chat 3" class="gallery__img">
+        <p class="gallery__description">Un chat curieux qui aime explorer.</p>
+      </article>
+
+      <article class="gallery__item">
+        <img src="/public/chat4.jpg" alt="Chat 4" class="gallery__img">
+        <p class="gallery__description">Un chat joueur et très câlin.</p>
+      </article>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header__end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__menu-btn {
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .subtitle {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  
+  .header__menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu__list {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .menu__link {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+  }
+  
+  .menu__link:hover {
+    color: #005bb5;
+  }
+  
+ 
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .gallery__item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery__img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .gallery__description {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
